@@ -1,0 +1,19 @@
+"Benchmark","Mode","Threads","Samples","Score","Score Error (99,9%)","Unit","Param: size"
+"de.bytewright.RealisticWorkflowBenchmark.batchUpdateWithArrayList","avgt",4,24,"1,694706","0,019294","us/op",100
+"de.bytewright.RealisticWorkflowBenchmark.batchUpdateWithArrayList","avgt",4,24,"16,235509","0,201509","us/op",1000
+"de.bytewright.RealisticWorkflowBenchmark.batchUpdateWithArrayList","avgt",4,24,"412,950291","4,866267","us/op",10000
+"de.bytewright.RealisticWorkflowBenchmark.batchUpdateWithLinkedList","avgt",4,24,"1,619259","0,079374","us/op",100
+"de.bytewright.RealisticWorkflowBenchmark.batchUpdateWithLinkedList","avgt",4,24,"19,603946","0,594009","us/op",1000
+"de.bytewright.RealisticWorkflowBenchmark.batchUpdateWithLinkedList","avgt",4,24,"215,042116","5,881703","us/op",10000
+"de.bytewright.RealisticWorkflowBenchmark.dataProcessingWithArrayList","avgt",4,24,"1,499371","0,069371","us/op",100
+"de.bytewright.RealisticWorkflowBenchmark.dataProcessingWithArrayList","avgt",4,24,"15,443681","0,786469","us/op",1000
+"de.bytewright.RealisticWorkflowBenchmark.dataProcessingWithArrayList","avgt",4,24,"194,489633","6,811854","us/op",10000
+"de.bytewright.RealisticWorkflowBenchmark.dataProcessingWithLinkedList","avgt",4,24,"2,306697","0,074163","us/op",100
+"de.bytewright.RealisticWorkflowBenchmark.dataProcessingWithLinkedList","avgt",4,24,"25,859361","0,845270","us/op",1000
+"de.bytewright.RealisticWorkflowBenchmark.dataProcessingWithLinkedList","avgt",4,24,"292,213126","8,155412","us/op",10000
+"de.bytewright.RealisticWorkflowBenchmark.streamProcessingWithArrayList","avgt",4,24,"0,983749","0,064033","us/op",100
+"de.bytewright.RealisticWorkflowBenchmark.streamProcessingWithArrayList","avgt",4,24,"7,941981","0,163968","us/op",1000
+"de.bytewright.RealisticWorkflowBenchmark.streamProcessingWithArrayList","avgt",4,24,"103,227640","6,004363","us/op",10000
+"de.bytewright.RealisticWorkflowBenchmark.streamProcessingWithLinkedList","avgt",4,24,"1,557324","0,071633","us/op",100
+"de.bytewright.RealisticWorkflowBenchmark.streamProcessingWithLinkedList","avgt",4,24,"15,277649","0,544007","us/op",1000
+"de.bytewright.RealisticWorkflowBenchmark.streamProcessingWithLinkedList","avgt",4,24,"169,414584","6,952285","us/op",10000
