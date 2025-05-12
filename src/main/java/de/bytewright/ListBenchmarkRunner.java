@@ -55,15 +55,15 @@ public class ListBenchmarkRunner {
 
         // Configure benchmark options
         ChainedOptionsBuilder optionsBuilder = new OptionsBuilder()
-                //.include(ListBenchmark.class.getSimpleName())
-                //.include(ComplexObjectBenchmark.class.getSimpleName())
+                .include(ListBenchmark.class.getSimpleName())
+                .include(ComplexObjectBenchmark.class.getSimpleName())
                 .include(RealisticWorkflowBenchmark.class.getSimpleName())
                 // Use these settings for quicker runs during development
                 // For actual benchmarking, you might want to increase these values
-                .warmupIterations(3)
+                .warmupIterations(5)
                 .measurementIterations(6)
                 .forks(4)
-                .threads(4)
+                .threads(8)
                 .shouldDoGC(true)
                 .shouldFailOnError(true)
                 .resultFormat(ResultFormatType.CSV)
